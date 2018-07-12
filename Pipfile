@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+google-compute-engine = "*"
+gensim = "*"
+smart_open = "*"
+boto = "*"
+pandas = "*"
+sklearn = "*"
+scipy = "*"
+nltk = "*"
+pyspark = "*"
+PyMySQL = "*"
+findspark = "*"
+sparkit-learn = "*"
+futures = "==3.1.1"
+scikit-learn = "==0.18.2"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
